@@ -1,0 +1,163 @@
+@font-face {
+    font-family: helvetica ;
+    src: url(../fonts/helvetica.ttf);
+}
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/HelveticaNeue.ttf);
+}
+/*font-family: 'Open Sans', sans-serif;*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/*header start*/
+header{
+	background-color: #f0f2f4;
+	border:1px solid #e2e2e2;
+	 }
+.icon1{
+	padding:10px 0;
+	
+}
+.for_border{
+	border-right:1px solid #e2e2e2;
+}
+.icon1 .list-inline{
+	margin:0;
+}
+.icon1 ul li a {
+	/*border:1px solid red;*/
+	background-color: #1287bf;
+	border-radius: 5px;
+	padding:4px 10px;
+	color: white;
+}
+
+/*header end*/
+/*Menu start*/
+
+
+/*Menu end*/
+/*banner start*/
+.banner{
+
+}
+.banner_content{
+	margin:10px;
+}
+.btn btn-warning{
+    padding: 10px 30px;
+    color: white;
+    background-color: #f8cd53;
+}
+/*banner end*/
+/*about us start*/
+.about{
+    padding:90px 0;
+}
+.title{
+
+}
+.title h1{
+	
+}
+.title p{
+	color:black;
+	
+}
+.title hr{
+	width:50px;
+	border:none;
+	border-bottom:5px solid #424242;
+	
+}
+.about_content{
+	padding-top:20px;
+}
+.about_content h5{
+	font-family: HelveticaNeue;
+
+}
+.about_content p{
+	 font-family: 'Open Sans', sans-serif;
+}
+
+/*Approch start*/
+.approch{
+	background-color: #f3f3f3;
+}
+
+/*our work*/
+.work{
+	background-color: #de2b24;
+	padding:80px;
+}
+.title1 h1{
+	color: white;
+}
+.title1 p{
+	color:white;
+}
+.title1 hr{
+	
+	width:50px;
+	border:none;
+	border-bottom:5px solid #424242;
+	color:white;
+}
+/*analysis start*/
+.analysis{
+	padding:80px 0;
+	min-height: 400px;
+	background-color:#1287bf;
+}
+.analysis h1,p{
+	color: white;
+}
+i{
+	color:white;
+	font-size: 30px;
+}
+.form-group p{
+	font-size: 10px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -45%;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
